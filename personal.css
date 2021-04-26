@@ -184,7 +184,7 @@ h2{
 #social{
 	text-align: center;
 	background-color:#FF69B4;
-	color: white;
+	color: #ff1493;
 	padding: 20px; 
 	align-items: center;
 	justify-content: center;
@@ -202,7 +202,7 @@ h2{
 	border-radius: 50%;
 	margin: 15px;
 	list-style-type: none;
-	background:#ff1493#;
+	background:#transparent;
 	line-height: 60px;
 	color: #666;
 	height: 60px;
