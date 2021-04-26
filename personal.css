@@ -58,7 +58,7 @@ body{
 	box-shadow: 0 0 10px  #daa520;
 }
 .img-caption{
-	font-family: 'Brush Script MT';
+	font-family: 'Brush Script MT', cursive;
 	text-align: left;
 	display: block;
 	color: #8a2be2;
@@ -116,7 +116,7 @@ body{
 h2{
 	color: #ff1493;
     position: center;
-	font-family: 'Brush Script MT';
+	font-family: 'Brush Script MT', cursive;
 }
 .books{
 	height: 120px; 
@@ -128,7 +128,7 @@ h2{
 .cap{
 	display: flex;
 	margin-left: 100px;
-	font-family: 'Brush Script MT';
+	font-family: 'Brush Script MT', cursive;
 	color: #ff1493;
 	padding-bottom: 50px;
 	margin-top: -10px;
@@ -139,7 +139,7 @@ h2{
 	margin-left: 40%;
 	margin-right: 10%;
 	margin-bottom: 0px;
-	font-family: 'Brush Script MT';
+	font-family: 'Brush Script MT', cursive;
 }
 .bear{
 	height: 120px;
@@ -162,7 +162,7 @@ h2{
 	margin-right: 110px;
 	margin-top: -20px;
 	color: #ff1493;
-	font-family: 'Brush Script MT';
+	font-family: 'Brush Script MT', cursive;
 	
 }
 .wel{
@@ -170,7 +170,7 @@ h2{
 	float: left;
 	margin-right: 40%;
 	margin-left: 80px;
-	font-family: 'Brush Script MT';
+	font-family: 'Brush Script MT', cursive;
 }
 .wel h2{
 	color: #0818A8
@@ -179,7 +179,7 @@ h2{
 	margin-top: 50px;
 	color: #ff1493;
 	text-shadow: 0 0 15px blue;
-	font-family: 'Brush Script MT';
+	font-family: 'Brush Script MT', cursive;
 	text-align: center;
 }
 #social ul{
@@ -267,10 +267,10 @@ h2{
 }
 .s-box li{
 color: #ff1493;
-font-family:'Brush Script MT';
+font-family:'Brush Script MT', cursive;
 }
 .s-box a{
-font-family:'Brush Script MT';
+font-family:'Brush Script MT', cursive;
 color: #ff1493;
 text-decoration: none;
 }
@@ -317,7 +317,7 @@ text-decoration: none;
 	font-weight: 250px;
 	justify-content: space-evenly;
 	padding: 20px;
-	font-family: 'Brush Script MT';
+	font-family: 'Brush Script MT', cursive;
 	box-shadow: 2px 2px 30px #ff1493; 
 
 }
