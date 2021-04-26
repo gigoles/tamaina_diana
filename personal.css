@@ -181,6 +181,14 @@ h2{
 	font-family:  'Brush Script MT', 'Brush Script Std', cursive;
 	text-align: center;
 }
+#social{
+	text-align: center;
+	background-color:#FF69B4;
+	color: white;
+	padding: 20px; 
+	align-items: center;
+	justify-content: center;
+}
 #social ul{
 	list-style-type: none;
 	display: inline-flex;
@@ -194,7 +202,7 @@ h2{
 	border-radius: 50%;
 	margin: 15px;
 	list-style-type: none;
-	background:transparent;
+	background:#ff1493#;
 	line-height: 60px;
 	color: #666;
 	height: 60px;
