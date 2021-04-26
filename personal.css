@@ -18,7 +18,7 @@ header{
 	width: 99%;
 	text-align: left;
 	text-shadow: 0 0 15px pink;
-	font-family: Brush Script MT;
+	font-family: 'Brush Script MT';
 }
 @media(max-width: 600px){
 	header{
