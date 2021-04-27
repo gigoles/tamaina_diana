@@ -230,8 +230,8 @@ h2{
 	box-shadow: 0 0 10px blue;
 	text-shadow: 0 0 10px blue;
 }
-	}
-#social ul a{
+	
+#social ul li a{
 	padding: 15px;
 	font-size: 35px;
 	color: #ff1493;
