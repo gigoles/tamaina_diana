@@ -200,6 +200,7 @@ h2{
 	height: 60px;
 	width: 60px;
 	cursor: pointer;
+	text-shadow: 0 0 15px #ff1493;
 	box-shadow: 0 0 10px #ff1493;
 
 	
