@@ -207,7 +207,7 @@ h2{
 }
 #social ul li:hover:before{
 	        position: absolute;
-	        content'';
+	        content:'';
 	        top:0;
 	        left:0;
 		transform: scale(1.2);
