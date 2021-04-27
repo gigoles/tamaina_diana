@@ -181,86 +181,49 @@ h2{
 	font-family:  'Brush Script MT', 'Brush Script Std', cursive;
 	text-align: center;
 }
-#social{
-	text-align: center;
-	background-color:#FF69B4;
-	color: white;
-	padding: 20px; 
-	align-items: center;
-	justify-content: center;
-}
-#social h1{
-	margin-bottom: 0;
-	margin: 0;
-	padding-top: 20px;
-	letter-spacing: 1px;
-	font-size: 60px;
-
-}
-#social p{
-	font-size: 20px;
-	margin-top: 0;
-	letter-spacing: 1px;
-	color: white;
-
-}
-@media(max-width: 480px){
-	#social p{
-		font-size: 15px;
-	}
-}
 #social ul{
 	list-style-type: none;
-	display: flex;
+	display: inline-flex;
+	margin-left: 60px;
 	flex-direction: row;
-	justify-content: center;
-	margin: 0;
-	padding: 20px 0;
-}
-#social ul li{
-	border-radius: 50%;
-	position: relative;
-	list-style-type: none;
-	display: block;
-	background:#171515;
-	line-height: 60px;
-	color: #666;
-	height: 60px;
-	width: 60px;
-	margin: 0 15px;
-	cursor: pointer;
-	transition: 0.5s;
-	
-}
-#social ul li:before{
-position: absolute;
-content: '';
-top: 0;
-left: 0;
-background:#d35400;
-height: 100%;
-width: 100%
-border-radius:50%;
-z-index: -1;
-transform: scale(0.9);
-transform: 5s;
-	}
-	#social ul li:hover:before{
-		filter: blur(3px);
-		transform: scale(1.2);
-		box-shadow: 0 0 15px #ffa502;
+	padding: 10px;
+	margin-top: 10px;
 
 	}
-	#social ul li:hover{
-		color: #ffa502;
-		box-shadow: 0 0 15px #FFFF;
-		text-shadow: 0 0 15px #FFFF;
+#social ul li{
+	border-radius: 50%;
+	margin: 15px;
+	list-style-type: none;
+	background:#transparent;
+	line-height: 60px;
+	color: transparent;
+	height: 60px;
+	width: 60px;
+	cursor: pointer;
+	box-shadow: 0 0 10px #ff1493;
+
+	
+}
+#social ul li:hover:before{
+		filter: blur(3px);
+		transform: scale(1.2);
+		box-shadow: 0 0 15px #ff1493;
+	        text-shadow: 0 0 15px #ff1493;
+
+	}
+#social ul li:hover{
+	box-shadow: 0 0 10px blue;
+}
 	}
 #social ul a{
 	padding: 15px;
 	font-size: 35px;
-	color: white;
+	color: #ff1493;
+	box-shadow: 0 0 10px #ff1493;
 	text-align: center;
+}
+#social ul a:hover{
+	box-shadow: 0 0 10px blue;
 }
 .s-box{ 
  	display: flex; 
