@@ -196,7 +196,7 @@ h2{
 	list-style-type: none;
 	background:#transparent;
 	line-height: 60px;
-	color: #666;
+	color: transparent;
 	height: 60px;
 	width: 60px;
 	cursor: pointer;
@@ -204,6 +204,13 @@ h2{
 
 	
 }
+#social ul li:hover:before{
+		filter: blur(3px);
+		transform: scale(1.2);
+		box-shadow: 0 0 15px #ff1493;
+	        text-shadow: 0 0 15px #ff1493;
+
+	}
 #social ul li:hover{
 	box-shadow: 0 0 10px blue;
 }
